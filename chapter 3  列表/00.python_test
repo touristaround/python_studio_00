@@ -1,0 +1,20 @@
+bicycle = ["one", "two", "three"]
+print(bicycle)
+print(bicycle[0])
+num = [1, 2, 3]
+print(num)
+print(num[0])
+print(f"{num[0]}".title())
+bicycle.pop(-1)
+print(bicycle)
+bicycle.sort()
+bicycle.append("three")
+bicycle.sort()
+print(bicycle)
+print(len(bicycle))
+print(bicycle)
+for a in bicycle:
+	print(a)
+print(min(num))
+s = [value**2 for value in num]
+print(s)

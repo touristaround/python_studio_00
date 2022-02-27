@@ -1,0 +1,6 @@
+list1 = [1, 2, 3]
+def plusOne(list2):
+	list2[0] = 100
+	return list2
+plusOne(list1)
+print(list1)

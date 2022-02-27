@@ -1,0 +1,12 @@
+message = "hello everyone"
+print(message)
+print(message.title())
+print(message.upper())
+message1 = "I'm Bill dong"
+s = f"{message} {message1}"
+s2 = f"{s}     "
+s3 = "   " + s + "     "
+print(s2)
+print(s3)
+print(s2.rstrip())
+print(s3.strip())
