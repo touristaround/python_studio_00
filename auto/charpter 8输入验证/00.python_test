@@ -1,0 +1,6 @@
+from pathlib import Path
+import requests
+import openpyxl
+cwd = Path.cwd()
+print(cwd)
+print(Path.home())
